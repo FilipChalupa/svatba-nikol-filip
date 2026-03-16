@@ -15,7 +15,7 @@ const InfoSection = () => {
     {
       icon: CalendarDays,
       title: "Datum",
-      lines: ["Bude upřesněno"],
+      lines: ["7. srpna 2026"],
     },
     {
       icon: Clock,
@@ -25,7 +25,7 @@ const InfoSection = () => {
     {
       icon: MapPin,
       title: "Místo",
-      lines: ["Ostrava", "Přesná adresa bude upřesněna"],
+      lines: ["Třebovický mlýn", "Na Heleně 5004/2", "722 00 Ostrava-Třebovice"],
     },
   ];
 

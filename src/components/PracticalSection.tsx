@@ -25,7 +25,7 @@ const PracticalSection = () => {
     {
       icon: Hotel,
       title: "Ubytování",
-      text: "Doporučená ubytování v okolí budou upřesněna. Rádi vám pomůžeme s rezervací.",
+      text: "Ubytování je možné přímo v hotelu Třebovický mlýn nebo v okolních hotelech v Ostravě. Rádi vám pomůžeme s rezervací.",
     },
     {
       icon: Phone,

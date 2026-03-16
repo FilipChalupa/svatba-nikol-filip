@@ -45,7 +45,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.8 }}
           className="mt-6 text-2xl font-display text-foreground/80"
         >
-          Datum bude upřesněno
+          Třebovický mlýn
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
