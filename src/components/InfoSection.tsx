@@ -20,7 +20,15 @@ const InfoSection = () => {
     {
       icon: Clock,
       title: "Harmonogram",
-      lines: ["14:00 — Obřad", "15:30 — Přípitek", "16:00 — Hostina", "20:00 — Večerní zábava"],
+      lines: [
+        "12:30 — Obřad",
+        "13:30 — Společné foto & gratulace",
+        "14:00 — Svatební hostina",
+        "16:00 — Krájení dortu",
+        "17:00 — Házení kytice & první tanec",
+        "18:00 — Večerní raut & zábava",
+        "22:00 — Půlnoční překvapení",
+      ],
     },
     {
       icon: MapPin,
