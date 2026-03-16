@@ -36,7 +36,7 @@ const HeroSection = () => {
           className="flex items-center justify-center gap-4 text-muted-foreground"
         >
           <span className="h-px w-12 bg-primary/40" />
-          <p className="text-lg tracking-widest">Ostrava</p>
+          <p className="text-lg tracking-widest">7. srpna 2026 · Ostrava</p>
           <span className="h-px w-12 bg-primary/40" />
         </motion.div>
         <motion.p
