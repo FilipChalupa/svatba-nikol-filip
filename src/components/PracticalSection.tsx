@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shirt, Gift, Hotel, Phone } from "lucide-react";
+import { Shirt, Gift, Phone } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -15,22 +15,17 @@ const PracticalSection = () => {
     {
       icon: Shirt,
       title: "Dress code",
-      text: "Semiiformální — dámy v šatech, pánové v obleku. Vyhněte se prosím bílé a krémové barvě.",
+      text: "Nemusíte řešit oblek ani společenské šaty — přijďte v čemkoliv, v čem se budete cítit dobře a pohodlně.",
     },
     {
       icon: Gift,
       title: "Dary",
-      text: "Vaše přítomnost je pro nás tím největším darem. Pokud nás chcete obdarovat, budeme vděční za příspěvek na svatební cestu.",
-    },
-    {
-      icon: Hotel,
-      title: "Ubytování",
-      text: "Ubytování je možné přímo v hotelu Třebovický mlýn nebo v okolních hotelech v Ostravě. Rádi vám pomůžeme s rezervací.",
+      text: "Nechceme žádné věcné dary. Pokud nás ale budete chtít podpořit finančně, budeme moc rádi.",
     },
     {
       icon: Phone,
       title: "Kontakt",
-      text: "V případě dotazů nás neváhejte kontaktovat. Kontaktní údaje budou doplněny.",
+      text: "Pokud máte jakékoliv dotazy, neváhejte kdykoliv napsat nevěstě nebo ženichovi — rádi vám odpovíme.",
     },
   ];
 
