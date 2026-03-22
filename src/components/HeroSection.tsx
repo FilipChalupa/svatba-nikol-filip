@@ -1,17 +1,10 @@
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
-import botanicalBorder from "@/assets/botanical-border.png";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
-      {/* Botanical border at the bottom */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-[35%] bg-bottom bg-cover bg-no-repeat pointer-events-none opacity-80"
-        style={{ backgroundImage: `url(${botanicalBorder})` }}
-      />
-
-      <div className="relative z-10 text-center px-6 max-w-2xl mx-auto -mt-16">
+      <div className="relative z-10 text-center px-6 max-w-2xl mx-auto">
         {/* Names with heart */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -44,16 +37,19 @@ const HeroSection = () => {
           className="space-y-1.5 mb-12"
         >
           <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-            našli jsme se, zamilovali a nyní Vám s radostí oznamujeme,
+            Našli jsme se, zamilovali a rozhodli se jít životem společně.
           </p>
           <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-            že svou lásku <span className="text-foreground font-medium">7. srpna 2026</span> ve <span className="text-foreground font-medium">12:30</span> hodin
+            S radostí Vás zveme na náš svatební den,
           </p>
           <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-            v <span className="text-foreground font-medium">Třebovickém mlýně</span> v Ostravě
+            který se bude konat <span className="text-foreground font-medium">7. srpna 2026</span> ve <span className="text-foreground font-medium">12:30</span> hodin
+          </p>
+          <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
+            v <span className="text-foreground font-medium">Třebovickém mlýně</span> v Ostravě.
           </p>
           <p className="text-foreground font-display italic text-lg md:text-xl pt-3">
-            proměníme v manželství.
+            Budeme rádi, když tento den prožijete s námi.
           </p>
         </motion.div>
 

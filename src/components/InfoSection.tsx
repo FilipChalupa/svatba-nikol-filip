@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Clock, CalendarDays } from "lucide-react";
+import { MapPin, CalendarDays } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -16,19 +16,6 @@ const InfoSection = () => {
       icon: CalendarDays,
       title: "Datum",
       lines: ["7. srpna 2026"],
-    },
-    {
-      icon: Clock,
-      title: "Harmonogram",
-      lines: [
-        "12:30 — Obřad",
-        "13:30 — Společné foto & gratulace",
-        "14:00 — Svatební hostina",
-        "16:00 — Krájení dortu",
-        "17:00 — Házení kytice & první tanec",
-        "18:00 — Večerní raut & zábava",
-        "22:00 — Půlnoční překvapení",
-      ],
     },
     {
       icon: MapPin,
@@ -51,7 +38,7 @@ const InfoSection = () => {
         </motion.h2>
         <div className="section-ornament mx-auto mb-16" />
 
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 max-w-2xl mx-auto">
           {items.map((item, i) => (
             <motion.div
               key={item.title}
