@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shirt, Gift, Phone } from "lucide-react";
+import { Shirt, Gift } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -15,17 +15,12 @@ const PracticalSection = () => {
     {
       icon: Shirt,
       title: "Dress code",
-      text: "Nemusíte řešit oblek ani společenské šaty — přijďte v čemkoliv, v čem se budete cítit dobře a pohodlně.",
+      text: "Žádná pravidla, žádný stres. Oblečte si to, v čem vám bude dobře — důležité je, abyste se bavili.",
     },
     {
       icon: Gift,
       title: "Dary",
-      text: "Nechceme žádné věcné dary. Pokud nás ale budete chtít podpořit finančně, budeme moc rádi.",
-    },
-    {
-      icon: Phone,
-      title: "Kontakt",
-      text: "Pokud máte jakékoliv dotazy, neváhejte kdykoliv napsat nevěstě nebo ženichovi — rádi vám odpovíme.",
+      text: "Vaše přítomnost je pro nás to nejcennější. Pokud byste nás chtěli podpořit i jinak, potěší nás finanční příspěvek.",
     },
   ];
 
@@ -43,7 +38,7 @@ const PracticalSection = () => {
         </motion.h2>
         <div className="section-ornament mx-auto mb-16" />
 
-        <div className="grid md:grid-cols-2 gap-10 text-left">
+        <div className="grid md:grid-cols-2 gap-10 text-left max-w-2xl mx-auto">
           {items.map((item, i) => (
             <motion.div
               key={item.title}
