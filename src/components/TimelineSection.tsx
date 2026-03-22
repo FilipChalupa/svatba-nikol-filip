@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Baby, Users, Heart, Gem, Church } from "lucide-react";
 
 const milestones = [
-  { icon: Baby, label: "Nikol se narodila", date: "" },
-  { icon: Baby, label: "Filip se narodil", date: "" },
-  { icon: Users, label: "Seznámili jsme se", date: "" },
-  { icon: Heart, label: "Řekli jsme si ANO", date: "" },
-  { icon: Church, label: "Svatba", date: "7. 8. 2026" },
+  { icon: Baby, label: "Nikol se narodila", date: "22. 8. 1994" },
+  { icon: Baby, label: "Filip se narodil", date: "21. 9. 1993" },
+  { icon: Users, label: "První rande a začátek společné cesty", date: "8. 8. 2022" },
+  { icon: Gem, label: "Filip poklekl a Nikol řekla ANO", date: "21. 12. 2025" },
+  { icon: Church, label: "Řekneme si ANO před oltářem", date: "7. 8. 2026" },
 ];
 
 const fadeUp = {
@@ -20,7 +20,7 @@ const fadeUp = {
 
 const TimelineSection = () => {
   return (
-    <section className="py-20 px-6 bg-card">
+    <section className="py-24 px-6 bg-card">
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -61,21 +61,11 @@ const TimelineSection = () => {
                 <m.icon className="w-4 h-4 md:w-6 md:h-6 text-primary/60" />
               </div>
               <p className="text-xs md:text-sm text-foreground/70 font-display italic">
-                {m.date || "—"}
+                {m.date}
               </p>
             </motion.div>
           ))}
         </div>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-center text-muted-foreground mt-12 text-sm italic"
-        >
-          Doplňte vaše důležitá data a příběh bude kompletní ♥
-        </motion.p>
       </div>
     </section>
   );
