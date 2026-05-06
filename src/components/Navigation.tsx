@@ -4,7 +4,8 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { href: "#info", label: "Kdy & Kde" },
-  { href: "#rsvp", label: "RSVP" },
+  { href: "#harmonogram", label: "Harmonogram" },
+  { href: "#zasedaci-poradek", label: "Zasedací pořádek" },
 ];
 
 const Navigation = () => {

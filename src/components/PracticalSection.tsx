@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shirt, Gift } from "lucide-react";
+import { Shirt, Gift, Waves } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -21,6 +21,11 @@ const PracticalSection = () => {
       icon: Gift,
       title: "Dary",
       text: "Vaše přítomnost je pro nás to nejcennější. Pokud byste nás chtěli podpořit i jinak, potěší nás finanční příspěvek.",
+    },
+    {
+      icon: Waves,
+      title: "Bazén",
+      text: "V místě konání bude k dispozici bazén — kdo má chuť si zaplavat, ať si nezapomene plavky.",
     },
   ];
 
