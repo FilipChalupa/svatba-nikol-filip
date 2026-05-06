@@ -6,6 +6,7 @@ const links = [
   { href: "#info", label: "Kdy & Kde" },
   { href: "#harmonogram", label: "Harmonogram" },
   { href: "#zasedaci-poradek", label: "Zasedací pořádek" },
+  { href: "#prakticke-informace", label: "Praktické informace" },
 ];
 
 const Navigation = () => {
