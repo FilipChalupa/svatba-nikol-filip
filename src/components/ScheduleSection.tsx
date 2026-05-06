@@ -4,7 +4,7 @@ const schedule = [
   { time: "12:30", label: "Obřad" },
   { time: "13:00", label: "Společné focení a focení skupinek" },
   { time: "14:00", label: "Svatební hostina" },
-  { time: "17:00", label: "Začíná hudba & první tanec" },
+  { time: "17:00", label: "Hudba & první tanec" },
   { time: "18:30", label: "Raut" },
   { time: "20:30", label: "Prskavky" },
 ];
