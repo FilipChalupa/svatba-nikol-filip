@@ -43,7 +43,7 @@ const HeroSection = () => {
             S radostí Vás zveme na náš svatební den,
           </p>
           <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
-            který se bude konat <span className="text-foreground font-medium">7. srpna 2026</span> ve <span className="text-foreground font-medium">12:30</span> hodin
+            který se bude konat v <span className="text-foreground font-medium">pátek 7. srpna 2026</span> ve <span className="text-foreground font-medium">12:30</span> hodin
           </p>
           <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
             v <span className="text-foreground font-medium">Třebovickém mlýně</span> v Ostravě.

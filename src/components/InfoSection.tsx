@@ -15,7 +15,7 @@ const InfoSection = () => {
     {
       icon: CalendarDays,
       title: "Datum",
-      lines: ["7. srpna 2026"],
+      lines: ["pátek 7. srpna 2026"],
     },
     {
       icon: MapPin,
