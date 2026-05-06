@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 const schedule = [
+  { time: "12:00", label: "Sejdeme se na místě — ať nám nic neuteče" },
   { time: "12:30", label: "Obřad" },
   { time: "13:00", label: "Společné focení a focení skupinek" },
   { time: "14:00", label: "Svatební hostina" },
