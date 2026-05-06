@@ -35,7 +35,7 @@ const PracticalSection = () => {
   ];
 
   return (
-    <section className="py-24 px-6 bg-card">
+    <section id="prakticke-informace" className="py-24 px-6 bg-card">
       <div className="max-w-4xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
