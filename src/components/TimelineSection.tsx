@@ -6,7 +6,7 @@ const milestones = [
   { icon: Baby, label: "Nikol se narodila", date: "22. 8. 1994" },
   { icon: Users, label: "První rande a začátek společné cesty", date: "8. 8. 2022" },
   { icon: Gem, label: "Filip poklekl a Nikol řekla ANO", date: "21. 12. 2025" },
-  { icon: Church, label: "Řekneme si ANO před oltářem", date: "7. 8. 2026" },
+  { icon: Church, label: "Řekneme si ANO", date: "7. 8. 2026" },
 ];
 
 const fadeUp = {
