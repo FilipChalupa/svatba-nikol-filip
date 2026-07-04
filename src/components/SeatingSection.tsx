@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import seatingPlan from "../assets/zasedaci-poradek.png.asset.json";
 
 const SeatingSection = () => {
   return (
@@ -22,7 +23,8 @@ const SeatingSection = () => {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="text-muted-foreground mb-10 leading-relaxed max-w-xl mx-auto"
         >
-          Najděte si svůj stůl podle plánku níže. Pokud byste si nebyli jistí, klidně se zeptejte — rádi navedeme.
+          Najděte si prosím své místo podle plánku níže. Pokud byste si nebyli
+          jistí, klidně se ptejte.
         </motion.p>
 
         <motion.div
@@ -30,9 +32,13 @@ const SeatingSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="rounded-lg border border-border bg-background/50 p-12 md:p-20 text-muted-foreground italic"
+          className="rounded-lg border border-border bg-background/50 p-4 md:p-6 overflow-hidden"
         >
-          Plánek bude brzy doplněn.
+          <img
+            src={seatingPlan.url}
+            alt="Zasedací pořádek"
+            className="w-full h-auto rounded-md"
+          />
         </motion.div>
       </div>
     </section>
