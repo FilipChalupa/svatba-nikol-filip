@@ -7,7 +7,10 @@ const schedule = [
   { time: "14:00", label: "Svatební hostina" },
   { time: "17:00", label: "Hudba & první tanec" },
   { time: "18:30", label: "Raut" },
+  { time: "19:00", label: "Svatební hry" },
   { time: "20:30", label: "Prskavky" },
+  { time: "22:00", label: "DJ" },
+  { time: "2:00", label: "Konec" },
 ];
 
 const ScheduleSection = () => {
