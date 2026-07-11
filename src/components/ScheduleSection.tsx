@@ -40,10 +40,10 @@ const ScheduleSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="flex items-center gap-5 md:gap-6 text-left"
+                className="flex items-start gap-3 md:gap-4 text-left"
               >
                 {/* Outlined dot */}
-                <div className="relative z-10 w-12 md:w-16 flex justify-center flex-shrink-0">
+                <div className="relative z-10 w-6 md:w-8 flex justify-center flex-shrink-0 pt-[0.7rem] md:pt-[0.8rem]">
                   <div className="w-3 h-3 rounded-full border-2 border-primary bg-background" />
                 </div>
                 {/* Time & label */}
