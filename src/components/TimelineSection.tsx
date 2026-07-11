@@ -41,7 +41,7 @@ const TimelineSection = () => {
             whileInView={{ scaleX: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="absolute bottom-[52px] left-[10%] right-[10%] h-px bg-primary/20 origin-left"
+            className="absolute bottom-[52px] md:bottom-[60px] left-[10%] right-[10%] h-px bg-primary/20 origin-left"
           />
 
           {milestones.map((m, i) => (
@@ -57,8 +57,9 @@ const TimelineSection = () => {
               <p className="text-xs md:text-sm text-muted-foreground mb-2 font-medium min-h-[2.5rem] flex items-end justify-center">
                 {m.label}
               </p>
-              <div className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-primary/10 flex items-center justify-center mb-3 relative z-10">
-                <m.icon className="w-4 h-4 md:w-6 md:h-6 text-primary/60" />
+              <div className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-card border border-primary/20 flex items-center justify-center mb-3 relative z-10">
+                <div className="absolute inset-0 rounded-full bg-primary/10" />
+                <m.icon className="w-4 h-4 md:w-6 md:h-6 text-primary/60 relative" />
               </div>
               <p className="text-xs md:text-sm text-foreground/70 font-display italic">
                 {m.date}
