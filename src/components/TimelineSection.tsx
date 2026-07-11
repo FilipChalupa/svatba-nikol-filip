@@ -41,7 +41,7 @@ const TimelineSection = () => {
             whileInView={{ scaleX: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="absolute bottom-[52px] left-[10%] right-[10%] h-px bg-primary/20 origin-left"
+            className="absolute bottom-[52px] md:bottom-[60px] left-[10%] right-[10%] h-px bg-primary/20 origin-left"
           />
 
           {milestones.map((m, i) => (
