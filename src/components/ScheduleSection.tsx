@@ -30,7 +30,7 @@ const ScheduleSection = () => {
 
         <div className="relative">
           {/* Vertical line */}
-          <div className="absolute left-6 md:left-8 top-2 bottom-2 w-px bg-primary/20" />
+          <div className="absolute left-3 md:left-4 top-2 bottom-2 w-px bg-primary/20" />
 
           <div className="space-y-8">
             {schedule.map((item, i) => (
