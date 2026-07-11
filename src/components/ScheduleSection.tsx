@@ -48,7 +48,7 @@ const ScheduleSection = () => {
                 </div>
                 {/* Time & label */}
                 <div className="flex items-baseline gap-3 md:gap-4">
-                  <span className="text-foreground font-display text-lg md:text-xl font-medium min-w-[4rem]">
+                  <span className="text-foreground font-display text-lg md:text-xl font-medium min-w-[4rem] text-right tabular-nums">
                     {item.time}
                   </span>
                   <span className="text-muted-foreground text-sm md:text-base">
