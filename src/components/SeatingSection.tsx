@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
-import seatingPlan from "../assets/zasedaci-poradek.png.asset.json";
+import seatingPlan from "../assets/zasedaci-poradek.png";
 
 const SeatingSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +58,7 @@ const SeatingSection = () => {
             aria-label="Zobrazit zasedací pořádek na celou obrazovku"
           >
             <img
-              src={seatingPlan.url}
+              src={seatingPlan}
               alt="Zasedací pořádek"
               className="w-full h-auto rounded-md"
             />
@@ -89,7 +89,7 @@ const SeatingSection = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0.95 }}
               transition={{ duration: 0.2 }}
-              src={seatingPlan.url}
+              src={seatingPlan}
               alt="Zasedací pořádek"
               className="max-w-full max-h-full object-contain rounded-md"
               onClick={(e) => e.stopPropagation()}
